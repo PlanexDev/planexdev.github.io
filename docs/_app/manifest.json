@@ -1,0 +1,76 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-7df9802a.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-689d7a9d.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-ab30010a.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-689d7a9d.js"
+    ],
+    "css": [
+      "immutable/assets/__layout-782da6b4.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "immutable/error.svelte-2887bee5.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-689d7a9d.js"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "immutable/pages/contact.svelte-1fdf1a1c.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-689d7a9d.js"
+    ],
+    "css": [
+      "immutable/assets/contact-00ed8394.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-7e3aa3e7.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-689d7a9d.js"
+    ],
+    "css": [
+      "immutable/assets/index-bdcdd71c.css"
+    ]
+  },
+  "_index-689d7a9d.js": {
+    "file": "immutable/chunks/index-689d7a9d.js"
+  },
+  "src/routes/contact.css": {
+    "file": "immutable/assets/contact-00ed8394.css",
+    "src": "src/routes/contact.css"
+  },
+  "src/routes/index.css": {
+    "file": "immutable/assets/index-bdcdd71c.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/__layout.css": {
+    "file": "immutable/assets/__layout-782da6b4.css",
+    "src": "src/routes/__layout.css"
+  }
+}
