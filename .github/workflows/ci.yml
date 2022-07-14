@@ -20,8 +20,8 @@ jobs:
           # if you are deploying to a custom domain
           # echo 'www.example.com' > CNAME
 
-          git config --global user.email "planexdev@gmail.com"
-          git config --global user.name "PlanexDev"
+          git config --global user.name $user_name
+          git config --global user.email $user_email
           git init
           git checkout -b gh-pages
           git add -A
@@ -31,6 +31,11 @@ jobs:
           # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
           # if you are deploying to https://<USERNAME>.github.io/<REPO>
-          git push -f https://github.com/PlanexDev/planexdev.github.io.git gh-pages
+          git push -f https://${github_token}@github.com/${repository} gh-pages
 
           cd -
+        env:
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          repository: ${{ github.repository }}
