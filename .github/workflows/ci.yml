@@ -23,7 +23,7 @@ jobs:
           git config --global user.email "planexdev@gmail.com"
           git config --global user.name "PlanexDev"
           git init
-          git checkout -b main
+          git checkout -b gh-pages
           git add -A
           git commit -m 'deploy'
 
