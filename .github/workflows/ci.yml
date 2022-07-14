@@ -32,7 +32,7 @@ jobs:
 
           # if you are deploying to https://<USERNAME>.github.io/<REPO>
           git remote add origin https://${github_token}@github.com/${repository}
-          git push -u origin gh-pages
+          git push -u origin gh-pages --force
 
           cd -
         env:
