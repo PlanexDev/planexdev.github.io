@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&family=JetBrains+Mono&display=swap");
+
+:root {
+  --bg: #050a15;
+  --light-slate: #c0c1dd;
+  --light-blue: #778DA9;
+}
+
+body {
+  background-color: var(--bg);
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: "Titillium Web";
+  font-size: 1.15em;
+  color: var(--light-slate);
+  margin-top: 0;
+}
+
+@font-face {
+  font-family: "Eurostile";
+  src: url("/EurostileBold.ttf");
+  font-weight: bold;
+}

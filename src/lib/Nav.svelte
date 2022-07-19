@@ -1,48 +1,27 @@
 <ul>
-  <a href="/"><li>Home</li></a>
-  <a href="/contact"><li>Contact</li></a>
+  <li><a href="/"><span class="number">0x01.</span> Home</a></li>
+  <li><a href="/contact"><span class="number">0x02.</span> Contact</a></li>
 </ul>
 
-<style lang="scss">
+<style>
   ul {
-    max-width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0 0 8px 8px;
-    margin-top: 0;
+    font-family: "JetBrains Mono", monospace;
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 0;
+    justify-content: flex-end;
 
-    background-color: #222;
+    list-style: none;
+  }
 
-    a {
-      color: white;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  li {
+    margin-left: 2em;
+  }
 
-      padding-top: 0.4em;
-      padding-bottom: 0.6em;
+  a {
+    color: var(--light-slate);
+    text-decoration: none;
+  }
 
-      flex: 1;
-
-      border-left: 1px solid #555;
-      border-right: 1px solid #555;
-
-      &:first-of-type {
-        border-left: none;
-      }
-
-      &:last-of-type {
-        border-right: none;
-      }
-
-      li {
-        list-style: none;
-        display: inline-block;
-      }
-    }
+  .number {
+    color: var(--light-blue);
   }
 </style>
