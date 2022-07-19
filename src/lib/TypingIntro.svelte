@@ -6,8 +6,8 @@
   onMount(() => {
     new Typed("#type", {
       strings: [
-        'Hi! I\'m <span class="aqua">PlanetDe</span>',
-        'Hi! I\'m <span class="aqua">PlanexDev!</span>',
+        'Hi! I\'m <span class="typing-name">PlanetDe</span>',
+        'Hi! I\'m <span class="typing-name">PlanexDev!</span>',
       ],
       typeSpeed: 30,
       backSpeed: 30,
@@ -24,19 +24,20 @@
 
 <style>
   h1 {
-    font-size: 64px;
+    font-size: 36px;
     display: inline-block;
     color: #fff;
     font-family: "Eurostile", sans-serif;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.4em;
+    margin-top: 36px;
   }
 
-  :global(.aqua) {
+  :global(.typing-name) {
     color: rgb(61, 239, 233);
+    font-size: 64px;
   }
 
   :global(.typed-cursor) {
     font-size: 72px;
-    color: #fff;
   }
 </style>
