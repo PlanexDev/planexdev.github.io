@@ -6,6 +6,7 @@
 <style>
   ul {
     font-family: "JetBrains Mono", monospace;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
 
