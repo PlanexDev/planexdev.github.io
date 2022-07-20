@@ -22,7 +22,6 @@ specifiers:
 dependencies:
   '@fortawesome/free-brands-svg-icons': 6.1.1
   '@fortawesome/free-solid-svg-icons': 6.1.1
-  svelte-fa: 3.0.3
   typed.js: 2.0.12
 
 devDependencies:
@@ -35,6 +34,7 @@ devDependencies:
   sass: 1.53.0
   svelte: 3.49.0
   svelte-check: 2.8.0_sass@1.53.0+svelte@3.49.0
+  svelte-fa: 3.0.3
   svelte-preprocess: 4.10.7_ti5n7ksfdoivvzciqy5qn6uyye
   tslib: 2.4.0
   typescript: 4.7.4
@@ -1235,7 +1235,7 @@ packages:
 
   /svelte-fa/3.0.3:
     resolution: {integrity: sha512-GIikJjcVCD+5Y/x9hZc2R4gvuA0gVftacuWu1a+zVQWSFjFYZ+hhU825x+QNs2slsppfrgmFiUyU9Sz9gj4Rdw==}
-    dev: false
+    dev: true
 
   /svelte-hmr/0.14.12_svelte@3.49.0:
     resolution: {integrity: sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==}
