@@ -1,6 +1,6 @@
 <ul>
-  <li><a href="/#"><span class="number">0x01.</span> Home</a></li>
-  <li><a href="/#contact"><span class="number">0x02.</span> Contact</a></li>
+  <li><a href="#top"><span class="number">0x01.</span> Home</a></li>
+  <li><a href="#contact"><span class="number">0x02.</span> Contact</a></li>
 </ul>
 
 <style>
@@ -12,6 +12,9 @@
 
     list-style: none;
     margin-top: 1em;
+    position: fixed;
+    width: calc(100vw - 2em);
+    left: 0;
   }
 
   li {

@@ -1,10 +1,13 @@
 <script>
 
-  import Hero from "./Hero.svelte";
+  import Contact from "./Contact.svelte";
+import Hero from "./Hero.svelte";
 </script>
 
 <main>
   <Hero />
+
+  <Contact />
 </main>
 
 <style>

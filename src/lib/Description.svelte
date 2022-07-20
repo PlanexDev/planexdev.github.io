@@ -4,8 +4,6 @@
 </p>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap");
-
   p {
     font-size: clamp(12px, 2vw, 32px);
     color: #eaeaea;
