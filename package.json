@@ -16,6 +16,7 @@
   "devDependencies": {
     "@planexdev/prettier-config": "^0.1.0",
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "1.0.0-next.36",
     "@sveltejs/kit": "next",
     "prettier": "^2.6.2",
     "prettier-plugin-svelte": "^2.7.0",
@@ -31,7 +32,6 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@sveltejs/adapter-static": "1.0.0-next.36",
     "svelte-fa": "^3.0.3",
     "typed.js": "^2.0.12"
   }
