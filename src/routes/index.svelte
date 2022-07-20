@@ -6,7 +6,3 @@
 
 <TypingIntro />
 <Description />
-
-<hr />
-
-<Wip />
