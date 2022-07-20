@@ -1,8 +1,5 @@
 <script>
-  import Description from "$lib/Description.svelte";
-  import TypingIntro from "$lib/TypingIntro.svelte";
-  import Wip from "$lib/Wip.svelte";
-</script>
+import Hero from "$lib/Hero.svelte";
 
-<TypingIntro />
-<Description />
+</script>
+<Hero />
