@@ -1,6 +1,7 @@
 <ul>
   <li><a href="#about"><span class="number">0x01.</span> About Me</a></li>
-  <li><a href="#contact"><span class="number">0x02.</span> Contact</a></li>
+  <li><a href="#skills"><span class="number">0x02.</span> Skills</a></li>
+  <li><a href="#contact"><span class="number">0x03.</span> Contact</a></li>
 </ul>
 
 <style>

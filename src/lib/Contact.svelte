@@ -1,5 +1,5 @@
 <section id="contact">
-  <h1><span class="section-number">0x02.</span> Get In Touch</h1>
+  <h1><span class="section-number">0x03.</span> Get In Touch</h1>
 
   <p>
     Even though you probably have no reason to want to contact me (considering I'm in middle
