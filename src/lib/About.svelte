@@ -1,5 +1,5 @@
 <section id="about">
-  <h1>0x01. About Me</h1>
+  <h1><span class="section-number">0x01.</span> About Me</h1>
 
   <p>
     Hi! I'm a student developer in middle school. I started programming when I was 8, when I found a

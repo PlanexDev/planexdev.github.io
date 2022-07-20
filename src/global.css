@@ -4,7 +4,7 @@
   --bg: #080e23;
   --lighter-slate: #c0c1dd;
   --light-slate: #9d9fd1;
-  --light-blue: #778DA9;
+  --light-blue: #8ba2c0;
 }
 
 * {
@@ -31,6 +31,12 @@ h1 {
   font-size: clamp(30px, 8vw, 50px);
   font-family: Eurostile, sans-serif;
   color: var(--lighter-slate);
+}
+
+.section-number {
+  font-size: 0.7em;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--light-blue);
 }
 
 @font-face {
