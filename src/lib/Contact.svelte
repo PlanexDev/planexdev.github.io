@@ -20,6 +20,7 @@
     max-width: clamp(150px, 50vw, 720px);
     margin: 0 auto;
     margin-bottom: 3em;
+    text-align: left;
   }
 
   a {

@@ -25,5 +25,6 @@
     max-width: clamp(150px, 50vw, 720px);
     margin: 0 auto;
     margin-bottom: 1em;
+    text-align: left;
   }
 </style>
