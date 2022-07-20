@@ -7,11 +7,11 @@
   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap");
 
   p {
-    font-size: 1.5em;
+    font-size: clamp(12px, 2vw, 32px);
     color: #eaeaea;
     font-family: Nunito, sans-serif;
     font-weight: 200;
-    margin-top: 0.2em;
+    margin-top: -26px;
   }
 
   p span {

@@ -1,5 +1,5 @@
 <script>
-import Hero from "$lib/Hero.svelte";
+import Content from "$lib/Content.svelte";
 
 </script>
-<Hero />
+<Content />

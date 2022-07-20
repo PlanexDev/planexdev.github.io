@@ -6,12 +6,12 @@
   onMount(() => {
     new Typed("#type", {
       strings: [
-        'Hi! I\'m <span class="typing-name">PlanetDe</span>',
-        'Hi! I\'m <span class="typing-name">PlanexDev!</span>',
+        'PlanetDe',
+        'PlanexDev',
       ],
-      typeSpeed: 30,
-      backSpeed: 30,
-      backDelay: 70,
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 120,
       onComplete: (self: any) => {
         self.cursor.remove();
       },
@@ -19,25 +19,28 @@
   });
 </script>
 
-<!-- svelte-ignore a11y-missing-content -->
-<h1 id="type" />
+<div class="name">Hi, my name is</div>
+
+<div id="type" />
 
 <style>
-  h1 {
-    font-size: 36px;
-    display: inline-block;
-    color: #fff;
-    font-family: "Eurostile", sans-serif;
-    margin-bottom: 0.4em;
-    margin-top: 36px;
+  .name {
+    font-size: 22px;
+    font-family: "JetBrains Mono", sans-serif;
+    color: #ddd;
+    margin-bottom: -44px;
   }
 
-  :global(.typing-name) {
+  #type {
+    display: inline-block;
+    font-family: "Eurostile", sans-serif;
+    margin-bottom: 0.4em;
+    margin-top: 48px;
     color: rgb(61, 239, 233);
-    font-size: 64px;
+	  font-size: clamp(40px, 8vw, 80px);
   }
 
   :global(.typed-cursor) {
-    font-size: 72px;
+    font-size: clamp(50px, 10vw, 100px);
   }
 </style>

@@ -1,6 +1,6 @@
 <ul>
-  <li><a href="/"><span class="number">0x01.</span> Home</a></li>
-  <li><a href="/contact"><span class="number">0x02.</span> Contact</a></li>
+  <li><a href="/#"><span class="number">0x01.</span> Home</a></li>
+  <li><a href="/#contact"><span class="number">0x02.</span> Contact</a></li>
 </ul>
 
 <style>

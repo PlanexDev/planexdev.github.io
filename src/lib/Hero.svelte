@@ -21,7 +21,7 @@
 
     @media screen and (max-width: 480px) {
         section {
-            padding: 100px 30px;
+            padding: 10px 30px;
         }
     }
 </style>
