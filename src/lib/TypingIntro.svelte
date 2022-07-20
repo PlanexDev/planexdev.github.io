@@ -28,14 +28,14 @@
     font-size: 22px;
     font-family: "JetBrains Mono", sans-serif;
     color: #ddd;
-    margin-bottom: -44px;
+    margin-bottom: -48px;
   }
 
   #type {
     display: inline-block;
     font-family: "Eurostile", sans-serif;
     margin-bottom: 0.4em;
-    margin-top: 48px;
+    margin-top: 52px;
     color: rgb(61, 239, 233);
 	  font-size: clamp(40px, 8vw, 80px);
   }
