@@ -1,5 +1,5 @@
 <ul>
-  <li><a href="#top"><span class="number">0x01.</span> Home</a></li>
+  <li><a href="#about"><span class="number">0x01.</span> About Me</a></li>
   <li><a href="#contact"><span class="number">0x02.</span> Contact</a></li>
 </ul>
 

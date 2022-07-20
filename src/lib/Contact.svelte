@@ -1,5 +1,5 @@
 <section id="contact">
-  <h1>Get In Touch</h1>
+  <h1>0x02. Get In Touch</h1>
 
   <p>
     Even though you probably have no reason to want to contact me (considering I'm in middle
@@ -12,7 +12,7 @@
 
 <style>
   section {
-    margin-top: 50vh;
+    margin-top: 15vh;
     text-align: center;
   }
 
