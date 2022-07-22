@@ -1,7 +1,7 @@
 <section id="about">
   <h1><span class="section-number">0x02.</span> My Skills</h1>
 
-  <p>
+  <div><p>
     Here are the skills that I've amassed over the years.
   </p>
 
@@ -15,6 +15,7 @@
     <li>Kotlin</li>
     <li>Tauri</li>
   </ul>
+</div>
 </section>
 
 <style>
@@ -23,17 +24,18 @@
     text-align: center;
   }
 
-  p {
-    max-width: clamp(150px, 50vw, 720px);
-    margin: 0 auto;
-    margin-bottom: 1em;
+  div {
     text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  p {
+    margin-bottom: 1em;
   }
 
   ul {
     text-align: left;
-    margin: 0 auto;
     list-style-type: circle;
-    max-width: clamp(150px, 50vw, 720px);
   }
 </style>
