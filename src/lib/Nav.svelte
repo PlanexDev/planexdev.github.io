@@ -8,7 +8,7 @@
     document.addEventListener("scroll", () => {
       const y = window.scrollY;
 
-      if (y > 100 && y - lastY > 0 && ul.getAttribute("scrolled")) {
+      if (y > 100 && y - lastY > 2 && ul.getAttribute("scrolled")) {
         ul.style.top = "-100%";
       } else {
         ul.style.top = "0";
@@ -47,7 +47,7 @@
     width: calc(100vw - 4em);
     left: 0;
 
-    transition: all 0.3s;
+    transition: all 0.3s, top 0.7s;
   }
 
   :global(ul[scrolled]) {
