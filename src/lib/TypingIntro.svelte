@@ -5,10 +5,7 @@
 
   onMount(() => {
     new Typed("#type", {
-      strings: [
-        'PlanetDe',
-        'PlanexDev',
-      ],
+      strings: ["PlanetDe", "PlanexDev"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 120,
@@ -37,7 +34,7 @@
     margin-bottom: 0.4em;
     margin-top: 52px;
     color: rgb(61, 239, 233);
-	  font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(40px, 8vw, 80px);
   }
 
   :global(.typed-cursor) {

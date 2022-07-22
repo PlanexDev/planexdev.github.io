@@ -16,35 +16,35 @@
 </section>
 
 <style>
-    section {
-        position: fixed;
-        bottom: 0;
+  section {
+    position: fixed;
+    bottom: 0;
 
-        height: 100vh;
+    height: 100vh;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-    .line {
-        position: absolute;
-        top: 0;
-        width: 2px;
-        height: 100vh;
-        z-index: -10;
-        background-color: rgb(88, 105, 155);
-    }
+  .line {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100vh;
+    z-index: -10;
+    background-color: rgb(88, 105, 155);
+  }
 
-    a {
-        margin-bottom: 1em;
-        padding-top: 0.75em;
-        padding-bottom: 0.75em;
-        background-color: var(--bg);
-    }
+  a {
+    margin-bottom: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    background-color: var(--bg);
+  }
 
-    a:last-of-type {
-        margin-bottom: 5em;
-    }
+  a:last-of-type {
+    margin-bottom: 5em;
+  }
 </style>
